@@ -3,9 +3,9 @@
 function buildMetadata(sample) {
   d3.json("https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json").then((data) => {
     let metadata = data.metadata;
+  
     // Filter the data for the object with the desired sample number
     // YOUR CODE HERE 
-
     let resultMetadata = metadata.filter(metadataObj => metadataObj.id == sample);
     let result0 = resultMetadata[0]
 
@@ -60,8 +60,8 @@ function buildCharts(sample) {
 
     let yticks = otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse();
     let barData = [
+      
       // YOUR CODE HERE 
-
       {
         x: sample_values,
         y: yticks,
