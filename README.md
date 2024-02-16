@@ -6,3 +6,4 @@ For the actual dashboard, that same data was read in from the json at https://2u
 ## StarterCode folder
 The starter code contains both the HTML to make the dashboard and the JS file. The dashboard can be viewed by downloading both the HTML and Javascript file, opening the HTML file in VS code, and running a live server. The dashboard contains selection options for each participant, a display of demographic info for the selected participant, a bar graph for the top 10 samples in that individual, and a bubble plot showing the samples found. 
 ## Github pages
+The github page for this repository can be found at kylekohlmeyer.github.io
